@@ -6,7 +6,7 @@ import "./index.css"
 
 const App = () => {
   return (
-    <div className="space-y-4 my-8">
+    <div className="space-y-4 my-8 ">
       <Navbar />
       <Hero />
       <FeatureWork />

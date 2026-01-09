@@ -25,6 +25,7 @@
 
 
 @utility container {
+  padding: 18px;
   width: 100%;
   margin-inline: auto;
   padding-inline: 147px
@@ -33,6 +34,7 @@
   @variant sm {
     max-width: 540px;
     padding-inline: 1.5rem;
+    padding: 1px
   }
 
   @variant md {
@@ -60,6 +62,8 @@
 
   h3 {
     font-size: 30px;
+
+
   }
 
   h4 {
