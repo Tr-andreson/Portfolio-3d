@@ -28,7 +28,6 @@
   padding: 18px;
   width: 100%;
   margin-inline: auto;
-  padding-inline: 147px;
 
   /* Customize max-width at specific breakpoints using @variant */
   @variant sm {
