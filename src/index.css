@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+  font-family: "Heebo", sans-serif;
+
+}
+
+
+@theme {
+
+  --color-primary: #FF6464;
+  --color-secondary: #00ABCC;
+  --color-dark: #21243d;
+  --color-light: #8695a4;
+
+  --color-white: #FFFFFF;
+
+
+
+
+
+}
+
+
+
+@utility container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 147px
+
+  /* Customize max-width at specific breakpoints using @variant */
+  @variant sm {
+    max-width: 540px;
+    padding-inline: 1.5rem;
+  }
+
+  @variant md {
+    max-width: 720px;
+  }
+
+  @variant lg {
+    max-width: 960px;
+  }
+
+  /* Add more custom sizes as needed */
+}
+
+.back {
+  --color-back: "#EDF7fa"
+}
+
+
+@layer components {
+
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    color: var(--color-light)
+  }
+
+
+}
